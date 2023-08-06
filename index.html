@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechParts</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/estilo.css">
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./img/Corporate Tech Computer Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Objetivo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+
+
+    <section id="section-banners" class="container">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.jpg" class="d-block w-100" alt="pessoa jogando no computador">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100" alt="pessoa jogando no computador">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.jpg" class="d-block w-100" alt="pessoa jogando no computador">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+    <section id="section-vendidos" class="container">
+
+      <h2>Mais Vendidos</h2>
+
+      <div class="card-group">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/gabinete.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gabinete Completo</h5>
+            <p class="preco">Intel Core i7</p>
+            <p class="preco">R$ 4.300</p>
+            <a href="#" id="btn-card" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/placa mae.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Placa Mãe</h5>
+            <p class="preco">Asus TUF B460m</p>
+            <p class="preco">R$ 800,00</p>
+            <a href="#" class="btn btn-primary" id="btn-card">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ssd.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SSD SANDISK</h5>
+            <p class="preco">1TB</p>
+            <p class="preco">R$ 430,00</p>
+            <a href="#" id="btn-card" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="container" id="objetivo">
+      <h1>Objetivo da Empresa</h1>
+      <p>Mikael, um entusiasta de computadores, fundou a "TechParts" com o objetivo claro de fornecer as melhores peças para computador diretamente aos clientes, sem intermediários, garantindo alta qualidade e preços acessíveis. Com sucesso crescente, expandiu-se online e se tornou referência no mercado. Hoje, a "TechParts" é uma das principais empresas no ramo, ajudando pessoas a montar máquinas poderosas para realizar seus sonhos digitais.</p>
+    </div>
+
+    <div class="duvida">Pergunte para nós!</div>
+    <section class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Email</label>
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Assunto</label>
+          <input type="text" class="form-control" id="inputAddress">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Mensagem</label>
+          <input type="text" class="form-control" id="inputAddress2">
+        </div>
+
+        </div>
+        <div class=" col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>Desenvolvido Aluno Mikael Melo</p>
+
+  </footer>
+  <div class="container-sm" id="enderecos">
+    <p>Email: <a href="#">exemplo@exemplo.com</a></p>
+    <p>Endereço: Avenida ABC - 123C</p>
+    <P>Telefone: +55 (11) 9 9999-9999</P>
+    <p>Facebook</p>
+    <p>Instagram</p>
+
+    <div class="redesociais">
+
+    </div>
+  </div>
+
+  <button id="voltar-topo" type="button" class="btn btn-outline-primary" onclick="topo()">&uarr; Voltar ao topo</button>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
